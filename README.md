@@ -12,6 +12,10 @@ Building tools and data for **trustworthy AI** — agents you can *constrain, ve
 机器可评分 · 防御导向 · 规则护栏基线（注入召回暴露护栏盲区）
 [🤗 Hugging Face](https://huggingface.co/datasets/uninhibited-scholar/agent-safety-bench-zh) · [🧪 魔搭](https://modelscope.cn/datasets/zhujiehan/agent-safety-bench-zh)
 
+**🚦 [defensive-refusal-bench-zh](https://github.com/uninhibited-scholar/defensive-refusal-bench-zh)** — 中文网安「防御问题误拒」评测基准
+与上一个互补：那个测「该拦的拦没拦住」，这个测「不该拒的有没误拒」——覆盖安全模型 **安全 × 可用** 两条边
+[🤗 Hugging Face](https://huggingface.co/datasets/uninhibited-scholar/defensive-refusal-bench-zh) · [🧪 魔搭](https://modelscope.cn/datasets/zhujiehan/defensive-refusal-bench-zh)
+
 **🧩 Agent Loop Toolkit** — 三个零依赖、框架无关、可挂到任意 agent loop 的轻量中间件
 | 接入点 | 库 | 作用 |
 |---|---|---|
