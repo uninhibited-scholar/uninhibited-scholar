@@ -11,7 +11,7 @@ Building tools and data for **trustworthy AI** — agents you can *constrain, ve
 **🧩 Agent Loop Toolkit** — 三个零依赖、框架无关、可挂到任意 agent loop 的轻量中间件
 | 接入点 | 库 | 作用 |
 |---|---|---|
-| 上下文 | [context-compressor](https://github.com/uninhibited-scholar/context-compressor) | 压缩 LLM 上下文窗口 50–80% |
+| 上下文 | [context-compressor](https://github.com/uninhibited-scholar/context-compressor) | 压缩 LLM 上下文窗口 40–80%（视输入重复度，实测 [benchmarks](https://github.com/uninhibited-scholar/context-compressor/blob/main/benchmarks/BENCHMARKS.md)） |
 | 执行前 | [precheck-guardian](https://github.com/uninhibited-scholar/precheck-guardian) | 预览计划 · 逐步风险 · 批准/拒绝/编辑 |
 | 运行中 | [something-else](https://github.com/uninhibited-scholar/something-else) | 中途插话 · 暂停 · 拦截,无需重启 |
 
