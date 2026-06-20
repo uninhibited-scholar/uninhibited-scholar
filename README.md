@@ -11,12 +11,14 @@ Building tools and data for **trustworthy AI** — agents you can *constrain, ve
 **🧩 Agent Loop Toolkit** — 三个零依赖、框架无关、可挂到任意 agent loop 的轻量中间件
 | 接入点 | 库 | 作用 |
 |---|---|---|
-| 上下文 | [context-compressor](https://github.com/uninhibited-scholar/context-compressor) | 压缩 LLM 上下文窗口 40–80% |
+| 上下文 | [context-compressor](https://github.com/uninhibited-scholar/context-compressor) | 压缩 LLM 上下文窗口 50–80% |
 | 执行前 | [precheck-guardian](https://github.com/uninhibited-scholar/precheck-guardian) | 预览计划 · 逐步风险 · 批准/拒绝/编辑 |
 | 运行中 | [something-else](https://github.com/uninhibited-scholar/something-else) | 中途插话 · 暂停 · 拦截,无需重启 |
 
 **⚙ [loop-runtime](https://github.com/uninhibited-scholar/loop-runtime)** — agent 循环执行引擎(预算熔断 / maker-checker / 人审门)
 **📚 [obsidian-loop-wiki](https://github.com/uninhibited-scholar/obsidian-loop-wiki)** — 把 Loop Engineering 落到 Obsidian 知识库,带可验证的反 Goodhart 校验器
+
+![一篇文章被编译成互相链接的知识图谱，最后通过 verify 校验](https://raw.githubusercontent.com/uninhibited-scholar/obsidian-loop-wiki/main/assets/demo.gif)
 
 ### 🧰 Stack
 `Python` · `TypeScript` · LLM / agent infrastructure · security · data engineering
