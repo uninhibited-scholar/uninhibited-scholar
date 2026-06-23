@@ -4,7 +4,9 @@ Building tools and data for **trustworthy AI** — agents you can *constrain, ve
 
 ---
 
-### 🧪 中文可信 AI 评测体系 · Chinese Trustworthy-AI Eval Suite
+### 🧪 中文可信 AI 评测体系
+
+> 📝 成果帖：[朴素方法在四个维度全线扑败](eval-suite.md)（含对比图 `eval-suite.svg`）——一个洞察：规则/关键词方法在 安全/可用/威胁映射/函数调用 上系统性失效。 · Chinese Trustworthy-AI Eval Suite
 
 一套围绕"安全 × 可用 × 能力"的中文评测集，全部**可机器评分、CI 校验、防御导向、零归因**。每个都同时上线 GitHub / 🤗 Hugging Face / 🧪 魔搭 ModelScope。
 

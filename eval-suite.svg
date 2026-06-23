@@ -1,0 +1,23 @@
+<svg width="100%" viewBox="0 0 680 430" role="img" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="680" height="430" fill="#ffffff"/>
+<text x="40" y="34" font-size="20" font-weight="500" fill="#0f172a" font-family="sans-serif">朴素方法 · 四个维度全线扑败</text>
+<text x="40" y="56" font-size="13" fill="#64748b" font-family="sans-serif">中文可信 AI 评测套件 · 规则/关键词基线在每个轴上的表现</text>
+<g font-family="sans-serif">
+<rect x="40" y="76" width="280" height="150" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+<text x="58" y="106" font-size="14" font-weight="500" fill="#0f172a">安全 · 注入召回</text>
+<text x="180" y="172" font-size="44" font-weight="500" fill="#dc2626" text-anchor="middle">0.25</text>
+<text x="58" y="206" font-size="12" fill="#64748b">危险命令 precision 0.93，却防不住语义注入</text>
+<rect x="340" y="76" width="280" height="150" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+<text x="358" y="106" font-size="14" font-weight="500" fill="#0f172a">可用 · 正当问题误拒率</text>
+<text x="480" y="172" font-size="44" font-weight="500" fill="#dc2626" text-anchor="middle">100%</text>
+<text x="358" y="206" font-size="12" fill="#64748b">同时还漏过约 32% 真实危害请求</text>
+<rect x="40" y="244" width="280" height="150" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+<text x="58" y="274" font-size="14" font-weight="500" fill="#0f172a">威胁映射 · technique F1</text>
+<text x="180" y="340" font-size="44" font-weight="500" fill="#dc2626" text-anchor="middle">0.12</text>
+<text x="58" y="372" font-size="12" fill="#64748b">关键词标不准 ATT&amp;CK 技术编号</text>
+<rect x="340" y="244" width="280" height="150" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+<text x="358" y="274" font-size="14" font-weight="500" fill="#0f172a">函数调用 · 完整准确率</text>
+<text x="480" y="340" font-size="44" font-weight="500" fill="#dc2626" text-anchor="middle">0%</text>
+<text x="358" y="372" font-size="12" fill="#64748b">蒙对函数名没用，参数与不该调才难</text>
+</g>
+</svg>
