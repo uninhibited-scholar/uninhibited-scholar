@@ -15,8 +15,8 @@ Building tools and data for **trustworthy AI** — agents you can *constrain, ve
 | 知识 | 网安技术问答语料（14,680 条 SFT） | cybersec-qa-dataset-zh | [GitHub](https://github.com/uninhibited-scholar/cybersec-qa-dataset-zh) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/cybersec-qa-dataset-zh) · [🧪](https://modelscope.cn/datasets/zhujiehan/cybersec-qa-dataset-zh) | ✅ |
 | 安全 | 该拦的有没有拦住（危险调用/注入） | agent-safety-bench-zh | [GitHub](https://github.com/uninhibited-scholar/agent-safety-bench-zh) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/agent-safety-bench-zh) · [🧪](https://modelscope.cn/datasets/zhujiehan/agent-safety-bench-zh) | ✅ |
 | 可用 | 不该拒的有没有误拒（over-refusal） | defensive-refusal-bench-zh | [GitHub](https://github.com/uninhibited-scholar/defensive-refusal-bench-zh) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/defensive-refusal-bench-zh) · [🧪](https://modelscope.cn/datasets/zhujiehan/defensive-refusal-bench-zh) | ✅ |
-| 威胁映射 | 威胁文本对应哪些 ATT&CK 技术 | attack-bench-zh | [GitHub](https://github.com/uninhibited-scholar/attack-bench-zh) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/attack-bench-zh) · [🧪](https://modelscope.cn/datasets/zhujiehan/attack-bench-zh) | 🚧 v0.2 |
-| 能力 | 函数调用选得对不对（简体原生） | zh-function-calling-bench | [GitHub](https://github.com/uninhibited-scholar/zh-function-calling-bench) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/zh-function-calling-bench) · [🧪](https://modelscope.cn/datasets/zhujiehan/zh-function-calling-bench) | 🚧 v0.2 |
+| 威胁映射 | 威胁文本对应哪些 ATT&CK 技术 | attack-bench-zh | [GitHub](https://github.com/uninhibited-scholar/attack-bench-zh) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/attack-bench-zh) · [🧪](https://modelscope.cn/datasets/zhujiehan/attack-bench-zh) | ✅ |
+| 能力 | 函数调用选得对不对（简体原生） | zh-function-calling-bench | [GitHub](https://github.com/uninhibited-scholar/zh-function-calling-bench) · [🤗](https://huggingface.co/datasets/uninhibited-scholar/zh-function-calling-bench) · [🧪](https://modelscope.cn/datasets/zhujiehan/zh-function-calling-bench) | ✅ |
 
 > 共同方法论：封闭词表 / 结构化匹配 → 评分零主观；每个仓库自带规则基线与"自带论点"的发现，并用 CI 担保纯净度（反 Goodhart）。
 
